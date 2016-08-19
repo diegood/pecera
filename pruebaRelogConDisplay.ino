@@ -33,10 +33,6 @@ void dht11_wrapper() {
   DHT11.isrCallback();
 }
 
-float temperatura(){
-  return muestra[0]+muestra[1]+muestra[2];
-}
-
 void loop()
 {
   DateTime now = RTC.now();
